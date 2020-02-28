@@ -1,0 +1,55 @@
+{
+    "name": "abcreche/commentable",
+    "description": "Commentable description",
+    "keywords": [
+        "abcreche",
+        "commentable"
+    ],
+    "homepage": "https://github.com/abcreche/commentable",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Drilon Srq",
+            "email": "lonnchee@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0",
+        "dyrynda/laravel-model-uuid": "~5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abcreche\\Commentable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Abcreche\\Commentable\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abcreche\\Commentable\\CommentableServiceProvider"
+            ],
+            "aliases": {
+                "Commentable": "Abcreche\\Commentable\\CommentableFacade"
+            }
+        }
+    }
+}
