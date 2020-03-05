@@ -1,6 +1,6 @@
 <?php
 
-namespace Abcreche\Commentable;
+namespace ABCreche\Commentable;
 
 class User
 {

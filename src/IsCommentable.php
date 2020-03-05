@@ -1,8 +1,8 @@
 <?php
 
-namespace Abcreche\Commentable;
+namespace ABCreche\Commentable;
 
-use Abcreche\Commentable\Commentable;
+use ABCreche\Commentable\Commentable;
 
 trait isCommentable
 {

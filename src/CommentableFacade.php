@@ -1,11 +1,11 @@
 <?php
 
-namespace Abcreche\Commentable;
+namespace ABCreche\Commentable;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Abcreche\Commentable\Skeleton\SkeletonClass
+ * @see \ABCreche\Commentable\Skeleton\SkeletonClass
  */
 class CommentableFacade extends Facade
 {

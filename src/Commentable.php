@@ -1,6 +1,6 @@
 <?php
 
-namespace Abcreche\Commentable;
+namespace ABCreche\Commentable;
 
 use Illuminate\Database\Eloquent\Model;
 use Dyrynda\Database\Support\GeneratesUuid;

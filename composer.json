@@ -26,18 +26,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Abcreche\\Commentable\\": "src"
+            "ABCreche\\Commentable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Abcreche\\Commentable\\Tests\\": "tests"
+            "ABCreche\\Commentable\\Tests\\": "tests"
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -45,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Abcreche\\Commentable\\CommentableServiceProvider"
+                "ABCreche\\Commentable\\CommentableServiceProvider"
             ],
             "aliases": {
-                "Commentable": "Abcreche\\Commentable\\CommentableFacade"
+                "Commentable": "ABCreche\\Commentable\\CommentableFacade"
             }
         }
     }

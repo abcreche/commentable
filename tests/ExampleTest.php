@@ -1,9 +1,9 @@
 <?php
 
-namespace Abcreche\Commentable\Tests;
+namespace ABCreche\Commentable\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Abcreche\Commentable\CommentableServiceProvider;
+use ABCreche\Commentable\CommentableServiceProvider;
 
 class ExampleTest extends TestCase
 {
@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
     {
         return [CommentableServiceProvider::class];
     }
-    
+
     /** @test */
     public function true_is_true()
     {
