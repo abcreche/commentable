@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "^6.0",
-        "dyrynda/laravel-model-uuid": "~5.0"
+        "illuminate/support": "^6.0|^7.0",
+        "dyrynda/laravel-model-uuid": "~5.0|^6.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
