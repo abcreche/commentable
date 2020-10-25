@@ -4,7 +4,7 @@ namespace ABCreche\Commentable;
 
 use ABCreche\Commentable\Commentable;
 
-trait isCommentable
+trait IsCommentable
 {
     /**
      * Set the polymorphic relation.
