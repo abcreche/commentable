@@ -25,12 +25,12 @@ class CommentableServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../config/config.php' => config_path('commentable.php'),
-            ], 'config');
+            ], 'abcreche-commentable-config');
 
             $this->publishes([
-            __DIR__ . '/../database/migrations/'
-            => database_path('migrations/'),
-        ], 'abcreche-commentable-migrations');
+                __DIR__ . '/../database/migrations/'
+                => database_path('migrations/'),
+            ], 'abcreche-commentable-migrations');
 
         }
     }
