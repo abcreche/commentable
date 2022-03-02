@@ -7,7 +7,7 @@ use Dyrynda\Database\Support\GeneratesUuid;
 
 class Commentable extends Model
 {
-    use GeneratesUuid;
+    use GeneratesUuid, IsCommentable;
 
     protected $guarded = ['id'];
 
