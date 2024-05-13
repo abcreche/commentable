@@ -12,7 +12,8 @@ class Commentable extends Model
     protected $guarded = ['id'];
 
     protected $casts = [
-        'is_public' => 'boolean'
+        'is_public' => 'boolean',
+        'metadata' => 'array'
     ];
 
     public function user()
